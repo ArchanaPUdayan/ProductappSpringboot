@@ -6,6 +6,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class ProductController {
-
+    @GetMapping("/")
+    public String Addpage(){
+        return "Welcome to my Add page";
+    }
 
 }
