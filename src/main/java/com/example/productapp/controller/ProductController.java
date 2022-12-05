@@ -20,4 +20,8 @@ public class ProductController {
     public String Editpage(){
         return "Welcome to my edit page";
     }
+    @GetMapping("/viewall")
+    public String Viewall(){
+        return "Welcome to my view all page";
+    }
 }
