@@ -24,4 +24,8 @@ public class ProductController {
     public String Viewall(){
         return "Welcome to my view all page";
     }
+    @PostMapping("/delete")
+    public String Deletepage(){
+        return "Welcome to my delete page";
+    }
 }
