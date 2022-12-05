@@ -16,4 +16,8 @@ public class ProductController {
         return "Welcome to my search page";
     }
 
+    @PostMapping("/edit")
+    public String Editpage(){
+        return "Welcome to my edit page";
+    }
 }
